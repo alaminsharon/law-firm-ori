@@ -1,0 +1,41 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+//variable
+
+:root {
+    --primary-font: "Tajawal", serif;
+    --secondary-font: "IBM Plex Sans Arabic", serif;
+
+    --primary-color: #2C3E50;
+    --secondary-color: #fb4834;
+    --white-color: #ffffff;
+    --yellow-color: #FFD700;
+
+    --border-color: #E8ECF5;
+    --box-shadow: -20px 7px 30px 3px rgba(0, 0, 0, 0.03);
+    
+    --pricing-bg: rgba(69, 44, 80, 0.348);
+    --pricing-top-title: #0F898C;
+    --top-title-bg: #452C50;
+    --card-icon-bg: #DEE3E8;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+* {
+    transition: 0.3s;
+}
+
+@media (min-width: 1224px) {
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 12px;
+    }
+}
